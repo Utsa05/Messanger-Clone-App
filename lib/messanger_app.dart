@@ -1,7 +1,10 @@
+// ignore_for_file: depend_on_referenced_packages
+
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+
 import 'package:messanger_clone_app/presentation/cores/color.dart';
 import 'package:messanger_clone_app/presentation/cores/string.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class MessangerApp extends StatelessWidget {
   const MessangerApp({Key? key}) : super(key: key);
