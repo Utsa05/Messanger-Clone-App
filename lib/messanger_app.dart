@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:messanger_clone_app/app_route.dart';
 
 import 'package:messanger_clone_app/presentation/cores/color.dart';
 import 'package:messanger_clone_app/presentation/cores/string.dart';
@@ -14,6 +15,8 @@ class MessangerApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: AppString.appName,
+      initialRoute: AppString.initial,
+      onGenerateRoute: AppRoutes.onOngerateRoute,
       theme: ThemeData(
           primaryColor: AppColor.white,
           appBarTheme: const AppBarTheme(backgroundColor: AppColor.black),
